@@ -135,3 +135,8 @@ h3{
     border-left: 7px solid rgb(56, 56, 212);
     border-image-slice: fill;
 }
+footer p{
+    text-align: center;
+    background-color: rgba(7, 3, 3, 0.925);
+    color: white;
+}
