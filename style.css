@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+
+
+}
+nav{
+    background:black;
+    height: 70px;
+    width: 100%;
+    position: -webkit-sticky;
+
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 70px;
+    padding:o 100px;
+    font-weight: bolder;
+    margin-left: 5px;
+
+
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: rgb(32, 73, 161);
+    
+}
+h1{
+    font-size: 50px;
+    margin-top: 10px;
+}
+#name{
+    color: darkorange;
+}
+.half-page{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+
+}
+.half-page img{
+    width: 100%;
+    margin-top: 10px;
+}
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+p{
+    font-weight: bolder;
+    text-justify: inter-word;
+}
+h3{
+    color: teal;
+}
+.link-button{
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+
+#dream{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.clear-fix{
+    clear: both;
+}
+.third-section h1{
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 160px;
+}
+.third-section h2{
+    font-size: 30px;
+
+}
+.beta-fazil{
+    box-shadow: 10px 10px 40px gray;
+    height:80%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#abul-vai{
+    border-left: 7px solid tomato;
+    border-image-slice: fill;
+
+}
+.beta-fazil:hover{
+    
+}
+#mofij-vai{
+    border-left: 7px solid rgb(56, 56, 212);
+    border-image-slice: fill;
+}
